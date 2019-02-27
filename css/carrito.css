@@ -1,0 +1,492 @@
+#mensaje-error{
+	position: fixed;
+	bottom: 2em;
+	background-color: #eda5a1;
+	border: solid 0.1em #ba4545;
+	border-radius: 1em;
+	z-index: 10000;
+	padding: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	max-width: 50%;
+	font-size: 1.1em;
+
+}
+
+section#productos{
+	width: 100%;
+	float: left;
+	clear: both;
+	background-color: #EEE;
+	overflow: hidden;
+	display: inline-block;
+}
+
+section#productos #titulo{
+	width: 100%;
+	float: left;
+	clear: both;
+	background-color: #222;
+	overflow: hidden;
+	color: #EEE;
+	font-size: 1.5em;
+	padding: 0.5em 0.5em;
+	margin: 0.5em 0;
+}
+
+section#productos .variedad{
+	width: 100%;
+	float: left;
+	clear: both;
+	margin-bottom: 1.5em;
+	padding-bottom: 0.5em;
+	border-bottom: solid #CCC 0.09em;
+}
+
+section#productos .variedad .imagen{
+	width: 8.5%;
+	height: 7em;
+	float: left;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	border: solid #CCC 0.1em;
+	background-color: #FFF;
+}
+
+section#productos .variedad .info{
+	width: 60%;
+	float: left;
+	margin-left: 3%;
+	padding: 0.5em 0;
+}
+section#productos .variedad .info .nombre{
+	width: 100%;
+	float: left;
+	clear: both;
+	font-size: 1.3em;
+	margin-bottom: 0.5em;
+}
+section#productos .variedad .info .dato{
+	float: left;
+	font-family: Arial;
+	font-size: 0.9em;
+	margin: 0.5em 0;
+	margin-right: 0.5em;
+	padding-right: 0.5em;
+	border-right: solid #CCC 0.1em;
+	color: #444;
+}
+
+section#productos .variedad .info .eliminar{
+	float: left;
+	clear: both;
+	border-radius: 0.5em;
+	border: solid #CCC 0.05em;
+	padding: 0.4em;
+	text-align: center;
+	cursor: pointer;
+	text-decoration:none;
+	background-color: #999;
+	color: #EEE;
+	
+}
+section#productos .variedad .info .eliminar:hover{
+	background-color: #ba4545;
+}
+
+section#productos .variedad .total{
+	width: 28.5%;
+	float: left;
+	padding: 0.5em 0;
+}
+section#productos .variedad .total form{
+	width: 100%;
+	clear: both;
+	float: right;
+}
+section#productos .variedad .total form .cantidad{
+	width: 15%;
+	float: right;
+	border-radius: 0.5em;
+	border: solid #CCC 0.05em;
+	padding: 0.2em;
+	text-align: center;
+}
+section#productos .variedad .total form span{
+	float: right;
+	padding: 0.3em;
+	margin-right: 1em;
+	text-align: center;
+}
+section#productos .variedad .total form .boton{
+	width: 45%;
+	float: right;
+	border-radius: 0.5em;
+	border: solid #CCC 0.05em;
+	padding: 0.2em;
+	text-align: center;
+	cursor: pointer;
+}
+
+section#productos .variedad .total form .boton:hover{
+	background-color: #ba4545;
+}
+
+section#productos .variedad .total .precio{
+	width: 100%;
+	clear: both;
+	float: right;
+	font-size: 1.5em;
+	text-align: right;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 1em 0;
+}
+
+section#productos #total{
+	width: 30%;
+	float: right;
+	background-color: #FFF;
+	padding: 1em;
+	font-size: 1.3em;
+	margin-bottom: 1em;
+	margin-top: 2em;
+	border: solid #FFF 0.05em;
+}
+section#productos #total span{
+	width: 50%;
+	float: left;
+	font-size: 0.9em;
+}
+
+section#productos #total #precio{
+	font-family: 'Titillium Web', sans-serif;
+	width: 50%;
+	float: left;
+	color: red;
+	text-align: right;
+}
+
+section#productos .continuar{
+	margin-top: 2em;
+	float: right;
+	text-decoration: none;
+	padding: 1em;
+	font-size: 1.3em;
+	margin-left: 1em;
+	margin-bottom: 4em;
+	background-color: #C4E2FF;
+	color: #00376E;
+	cursor: pointer;
+	border: solid #57ABFF 0.05em;
+	clear: left;
+}
+section#productos .continuar:hover{
+	border: solid #ba4545 0.05em;
+	background-color: #ba4545;
+	color: black;
+}
+
+
+
+section#productos form{
+	width: 100%;
+	float: left;
+	clear: both;
+	border-bottom: solid #CCC 0.05em;
+}
+
+section#productos form#actualizar{
+	border-bottom: solid #CCC 0em;	
+}
+
+section#productos form .opcion{	
+	width: 47%;
+	float: left;
+	font-size: 1.1em;
+	margin: 0.7em 0;
+	margin-right: 3%;
+
+}
+section#productos form .opcion .texto{	
+	width: 40%;
+	float: left;
+	clear: left;
+	font-size: 1.1em;
+	padding: 0.3em;
+	margin-bottom: 1em;
+}
+section#productos form .opcion .grande{
+	width: 60%;	
+	float: left;
+	font-size: 0.95em;
+	border-radius: 0.2em;
+	border: solid #BBB 0.05em;
+	padding: 0.35em 0.7em;	
+	margin-bottom: 0em;
+}
+section#productos form .opcion input.dire1{
+	width: 33%;	
+	margin-right: 2%;
+}
+section#productos form .opcion input.dire2{
+	width: 25%;	
+}
+
+section#productos #mensaje{
+	width: 100%;
+	font-size: 3em;
+	margin: 1em;
+	margin-top: 3em;
+	text-align: center;
+}
+section#productos #aclaraciones{
+	width: 80%;
+	font-size: 1.5em;
+	margin: 1em 10%;
+	text-align: center;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+	section#productos{
+	}
+
+	section#productos #titulo{
+		text-align: center;
+	}
+
+	section#productos .variedad{
+		width: 90%;
+		margin: 0 5%;
+		margin-bottom: 1em;
+		position: relative;
+		padding-bottom: 0.5em;
+	}
+
+	section#productos .variedad .imagen{
+		width: 30%;
+		height: 7em;
+		float: left;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		border: solid #CCC 0.1em;
+		background-color: #FFF;
+	}
+
+	section#productos .variedad .info{
+		width: 64%;
+		float: left;
+		margin-left: 3%;
+		padding: 0.5em 0;
+	}
+	section#productos .variedad .info .nombre{
+		width: 100%;
+		float: left;
+		clear: both;
+		font-size: 1em;
+		margin-bottom: 0.5em;
+	}
+	section#productos .variedad .info .dato{
+		display: none;
+		float: left;
+		font-family: Arial;
+		font-size: 0.9em;
+		margin: 0.5em 0;
+		margin-right: 0.5em;
+		padding-right: 0.5em;
+		border-right: solid #CCC 0.1em;
+		color: #444;
+	}
+
+	section#productos .variedad .info .eliminar{
+		width: 100%;
+		display: inline-block;
+		float: left;
+		clear: both;
+		border-radius: 0.5em;
+		border: solid #CCC 0.05em;
+		padding: 0.4em;
+		text-align: center;
+		cursor: pointer;
+		text-decoration:none;
+		background-color: #999;
+		color: #EEE;
+		
+	}
+	section#productos .variedad .info .eliminar:hover{
+		background-color: #ba4545;
+	}
+
+	section#productos .variedad .total{
+		width: 100%;
+		float: left;
+		clear: both;
+		padding: 0;
+		margin: 1em 0;
+	}
+	section#productos .variedad .total form{
+		width: 60%;
+		clear: none;
+		float: left;
+		font-size: 0.9em;
+		padding: 0;
+		margin: 0 1%;
+		
+	}
+	section#productos .variedad .total form .cantidad{
+		width: 25%;
+		float: right;
+		border-radius: 0.5em;
+		border: solid #CCC 0.05em;
+		padding: 0.2em;
+		text-align: center;
+		margin-right: 10%;
+	}
+	section#productos .variedad .total form span{
+		width: 65%;
+		float: right;
+		padding: 0.3em;
+		margin-right: 0em;
+		text-align: center;
+		display: none;
+	}
+	section#productos .variedad .total form .boton{
+		width: 65%;
+		float: right;
+		border-radius: 0.5em;
+		border: solid #CCC 0.05em;
+		padding: 0.2em;
+		text-align: center;
+		cursor: pointer;
+	}
+
+	section#productos .variedad .total form .boton:hover{
+		background-color: #ba4545;
+	}
+
+	section#productos .variedad .total .precio{		
+		width: 35%;
+		clear: both;
+		clear: none;
+		font-size: 1.3em;
+		font-family: 'Titillium Web', sans-serif;
+		margin: 1em 0;
+		text-align: right;
+		padding: 0;
+		margin: 0;
+	}
+
+	section#productos #total{
+		width: 100%;
+		float: left;
+		background-color: #FFF;
+		padding: 1em;
+		font-size: 1.3em;
+		margin-bottom: 1em;
+		margin-top: 2em;
+		border: solid #FFF 0.05em;
+		margin: 0;
+	}
+	section#productos #total span{
+		width: 50%;
+		float: left;
+		font-size: 0.9em;
+	}
+
+	section#productos #total #precio{
+		font-family: 'Titillium Web', sans-serif;
+		width: 50%;
+		float: left;
+		color: red;
+		text-align: right;
+	}
+
+	section#productos .continuar{
+		margin-top: 2em;
+		float: left;
+		text-decoration: none;
+		padding: 1em;
+		font-size: 1.3em;
+		margin-left: 1em;
+		margin-bottom: 4em;
+		background-color: #C4E2FF;
+		color: #00376E;
+		cursor: pointer;
+		border: solid #57ABFF 0.05em;
+		clear: left;
+		width: 100%;
+		margin: 0.5em 0;
+	}
+	section#productos .continuar:hover{
+		border: solid #ba4545 0.05em;
+		background-color: #ba4545;
+		color: black;
+	}
+
+
+
+	section#productos form{
+		width: 100%;
+		float: left;
+		clear: both;
+		border-bottom: solid #CCC 0.05em;
+	}
+
+	section#productos form#actualizar{
+		border-bottom: solid #CCC 0em;	
+	}
+
+	section#productos form .opcion{	
+		width: 47%;
+		float: left;
+		font-size: 1.1em;
+		margin: 0.7em 0;
+		margin-right: 3%;
+
+	}
+	section#productos form .opcion .texto{	
+		width: 40%;
+		float: left;
+		clear: left;
+		font-size: 1.1em;
+		padding: 0.3em;
+		margin-bottom: 1em;
+	}
+	section#productos form .opcion .grande{
+		width: 60%;	
+		float: left;
+		font-size: 0.95em;
+		border-radius: 0.2em;
+		border: solid #BBB 0.05em;
+		padding: 0.35em 0.7em;	
+		margin-bottom: 0em;
+	}
+	section#productos form .opcion input.dire1{
+		width: 33%;	
+		margin-right: 2%;
+	}
+	section#productos form .opcion input.dire2{
+		width: 25%;	
+	}
+
+	section#productos #mensaje{
+		width: 100%;
+		font-size: 3em;
+		margin: 1em;
+		margin-top: 3em;
+		text-align: center;
+	}
+	section#productos #aclaraciones{
+		width: 80%;
+		font-size: 1.5em;
+		margin: 1em 10%;
+		text-align: center;
+	}
+
+}
+

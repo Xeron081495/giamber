@@ -1,0 +1,240 @@
+@charset "utf-8";
+
+section#contenido{
+	width: 85%;
+	float: left;
+	clear: right;
+	color: #333;
+	padding-left: 1%;
+
+}
+
+section#contenido #cabeza{
+	width: 100%;
+	float: left;
+	clear: both;
+	margin: 2em 0;
+}
+
+section#contenido #cabeza #titulo{
+	float: left;
+	font-size: 2em;
+}
+
+section#contenido #cabeza a,section#contenido #cabeza input#boton-confirmar:hover{
+	font-size: 0.9em;
+    color: #0073aa;
+    background-color: #DDDDDD;
+    padding: 7px;
+    float: left;
+    border-radius: 0.2em;
+    text-decoration: none;
+    margin: 0.4em 1em;
+	border: solid 0em #FFF;
+	width: auto;
+}
+section#contenido #cabeza a:hover,section#contenido #cabeza input#boton-confirmar{
+    color: #E8E8E8;
+    background-color: #0073aa;
+	font-size: 0.9em;
+    padding: 7px;
+    float: left;
+    border-radius: 0.2em;
+    text-decoration: none;
+    margin: 0.4em 1em;
+	border: solid 0em #FFF;
+	cursor: pointer;
+	width: auto;
+}
+
+section#contenido article#tabla{
+	float: left;
+	clear: both;
+	width: 100%;	
+}
+section#contenido article#tabla-celular{
+	display: none;
+}
+
+section#contenido article#tabla #titulos{
+	float: left;
+	clear: both;
+	background-color: #FFF;
+	width: 100%;	
+	border: 0.01em solid #DDD;
+	border-bottom-width: 0em;
+	padding: 0.5em;
+}
+
+section#contenido article#tabla #titulos .col{
+	float: left;
+
+}
+section#contenido article#tabla #titulos .primero{
+	color: #0073aa;	
+}
+section#contenido article#tabla #filas{
+	float: left;
+	clear: both;
+	background-color: #FFF;
+	width: 100%;	
+	border: 0.01em solid #DDD;
+	border-bottom-width: 0em;
+	padding: 0.8em;
+	
+}
+
+section#contenido article#tabla #filas .col{
+	float: left;
+
+}
+section#contenido article#tabla #filas .primero{
+	color: #0073aa;	
+}
+
+section#contenido article#tabla #filas .opciones{
+	float: left;
+	clear: both;
+	width: 100%;
+	padding-top: 0.5em;	
+	
+}
+section#contenido article#tabla #filas .opciones a{
+	float: left;
+	font-size: 0.8em;
+	color: #888;
+	padding-right: 0.5em;
+	margin-right: 0.5em;
+	border-right: 0.01em solid #DDD;
+	text-decoration: none;
+}
+section#contenido article#tabla #filas .opciones a.ultimo{
+	border-right: 0.0em solid #DDD;
+}
+section#contenido article#tabla #filas .opciones a:hover{
+	color: #0073aa;	
+	text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 900px)  {
+	section#contenido{
+		width: 100%;
+		clear: both;
+	}
+
+	section#contenido #cabeza{
+		width: 100%;
+		float: left;
+		clear: both;
+		margin: 1em 0;
+	}
+
+	section#contenido #cabeza #titulo{
+		float: left;
+		font-size: 2em;
+		width: 100%;
+		text-align: center;
+	}
+
+	section#contenido #cabeza a,section#contenido #cabeza input#boton-confirmar:hover{
+		width: 48%;
+		margin: 0.4em 1%;
+		text-align: center;
+	}
+	section#contenido #cabeza a:hover,section#contenido #cabeza input#boton-confirmar{
+		width: 48%;
+		color: #E8E8E8;
+		background-color: #0073aa;
+		font-size: 0.9em;
+		padding: 7px;
+		float: left;
+		border-radius: 0.2em;
+		text-decoration: none;
+		margin: 0.4em 1%;
+		border: solid 0em #FFF;
+		cursor: pointer;
+	}
+
+	section#contenido article#tabla{
+		display: none;
+	}
+
+	section#contenido article#tabla #titulos{
+	}
+
+	section#contenido article#tabla #titulos .col{
+
+	}
+	section#contenido article#tabla #titulos .primero{
+	}
+	section#contenido article#tabla #filas{
+	}
+
+	section#contenido article#tabla #filas .col{
+	}
+	section#contenido article#tabla #filas .primero{
+	}
+
+	section#contenido article#tabla #filas .opciones{		
+	}
+	section#contenido article#tabla #filas .opciones a{
+	}
+	section#contenido article#tabla #filas .opciones a.ultimo{
+	}
+	section#contenido article#tabla #filas .opciones a:hover{
+	}
+	
+	
+	section#contenido article#tabla-celular{
+		float: left;
+		clear: both;
+		width: 95%;
+		margin: 0 2.5%;
+		display: inline-block;
+	}
+	section#contenido article#tabla-celular #filas{
+		border: solid 0.08em #BBB;
+		margin-bottom: 0.5em;
+		float: left;
+		clear: both;
+		width: 100%;
+	}
+
+	section#contenido article#tabla-celular #filas .col{
+		width: 100%;
+		float: left;
+		clear: both;
+		background-color: #FFF;
+		border: 0.01em solid #DDD;
+		border-bottom-width: 0em;
+		padding: 0.8em;
+		display: none;
+	}
+	section#contenido article#tabla-celular #filas .primero{
+		width: 100%;
+		float: left;
+		clear: both;
+		color: #0073aa;
+		display: inline-block;		
+	}
+	section#contenido article#tabla-celular #filas .opciones{
+		width: 100%;
+		float: left;
+		clear: both;
+		display: none;
+	}
+	section#contenido article#tabla-celular #filas .opciones a{
+		width: 50%;
+		float: left;
+		background-color: #AAA;
+		border: 0.01em solid #DDD;
+		border-bottom-width: 0em;
+		padding: 0.8em;
+		text-decoration: none;
+		color: #333;
+		
+	}
+	
+		
+}

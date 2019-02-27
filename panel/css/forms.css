@@ -1,0 +1,299 @@
+@charset "utf-8";
+
+section#contenido{
+	width: 80%;
+	float: left;
+	clear: right;
+	color: #333;
+	padding-left: 2%;
+}
+
+section#contenido #cabeza{
+	width: 100%;
+	float: left;
+	clear: both;
+	margin: 2em 0;
+}
+
+section#contenido #cabeza #titulo{
+	float: left;
+	font-size: 2em;
+}
+
+section#contenido #cabeza a{
+	font-size: 0.9em;
+	color: #0073aa;
+	background-color: #DDDDDD;
+	padding: 7px;
+	float: left;
+	border-radius: 0.2em;
+	text-decoration: none;
+	margin: 0.4em 1em;
+}
+section#contenido #cabeza a:hover{
+	color: #E8E8E8;
+	background-color: #0073aa;
+}
+
+section#contenido #cabeza #info{
+	width: 100%;
+	float: left;
+	clear: both;
+	margin: 1em 0;
+	font-style: italic;
+}
+section#contenido article#tabla-form{
+	float: left;
+	clear: both;
+	width: 100%;	
+}
+
+
+section#contenido form{
+	width: 100%;
+	float: left;
+	clear: both;
+	min-width: 1000px;
+}
+section#contenido #cabeza a,section#contenido input#boton-confirmar:hover,section#contenido a.boton:hover{
+	width: 30%;
+	margin: 0.4em 1%;
+	text-align: center;
+	width: auto;
+}
+section#contenido #cabeza a:hover,section#contenido input#boton-confirmar,section#contenido a.boton{
+	color: #E8E8E8;
+	background-color: #0073aa;
+	font-size: 0.9em;
+	padding: 7px;
+	float: left;
+	border-radius: 0.2em;
+	text-decoration: none;
+	margin: 0.4em 1%;
+	border: solid 0em #FFF;
+	cursor: pointer;
+	width: auto;
+}
+
+section#contenido form label{
+	width: 45%;
+	float: left;
+	margin: 0.7em 0;
+	margin-right: 5%;overflow: hidden;
+}
+
+
+section#contenido form .titulo{
+	width: 90%;
+	float: left;
+	padding: 0.7em 0;
+	margin: 0.2em 0;
+	margin-right: 5%;
+	font-size: 1.5em;
+	border-bottom: solid #888 0.01em;
+}
+section#contenido form label#largo{
+	width: 35%;
+	margin: 2em 32.5%;
+}
+section#contenido form .campo_nombre{
+	width: 40%;
+	float: left;
+	font-size: 1.1em;
+	padding-top: 0.35em;
+	overflow: hidden;
+}
+section#contenido form .campo_input{
+	width: 58%;
+	float: left;
+	border-radius: 0.5em;
+	border: solid #BBB 0.05em;
+	padding: 0.3em;
+	color: #333;
+	height: 2.2em;
+}
+section#contenido form .campo_checkbox{
+	float: left;
+	clear: both;
+	border-radius: 0.5em;
+	border: solid #BBB 0.05em;
+	padding: 0.3em;
+	color: #333;
+	height: 1em;
+	margin: 0.1em 0.5em;
+}
+section#contenido form .campo_imagen{
+	width: 58%;
+}
+section#contenido form .agregar_imagen{
+	width: 20%;
+	margin-right: 1%;
+	padding: 0.1em 0.05em;
+	background-color: #666;
+	float: left; 
+	border-radius: 0.5em;
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	height: auto;
+}
+section#contenido form .nomostrar{
+	display: none;
+}
+section#contenido form .campo_text{
+	width: 58%;
+	float: left;
+	border-radius: 0.5em;
+	border: solid #BBB 0.05em;
+	padding: 0.3em;
+	color: #333;
+}
+section#contenido form .campo_boton{
+	width: 10em;
+	float: right;
+	border-radius: 0.5em;
+	border: solid #4290F5 0.05em;
+	padding: 0.7em;
+	color: #333;
+	cursor: pointer;
+	background-color:  #0073aa;
+	color: #E8E8E8;
+	margin-right: 2em;
+}
+section#contenido form .campo_boton2{
+	width: 20em;
+	float: left;
+	clear: both;
+	border-radius: 0.5em;
+	border: solid #4290F5 0.05em;
+	padding: 0.7em;
+	color: #333;
+	cursor: pointer;
+	background-color:  #0073aa;
+	color: #E8E8E8;
+	margin-right: 0em;
+}
+section#contenido form #editor{
+	width: 100%;
+	float: left;
+	margin: 0.7em 0;
+	margin-right: 5%;
+}
+
+@media only screen and (max-width: 900px)  {
+	section#contenido{
+		clear: both;
+		width: 100%;
+	}
+
+	section#contenido #cabeza{
+		width: 100%;
+		float: left;
+		clear: both;
+		margin: 1em 0;
+	}
+
+	section#contenido #cabeza #titulo{
+		float: left;
+		font-size: 2em;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 0.5em;
+	}
+
+	section#contenido #cabeza a,section#contenido input#boton-confirmar:hover{
+		width: 48%;
+		margin: 0.4em 1%;
+		text-align: center;
+	}
+	section#contenido #cabeza a:hover{
+		width: 48%;
+		color: #E8E8E8;
+		background-color: #0073aa;
+		font-size: 0.9em;
+		padding: 7px;
+		float: left;
+		border-radius: 0.2em;
+		text-decoration: none;
+		margin: 0.4em 1%;
+		border: solid 0em #FFF;
+		cursor: pointer;
+	}
+	section#contenido input#boton-confirmar{
+		width: 100%;		
+	}
+	section#contenido input#boton-confirmar:hover{
+		width: 100%;		
+	}
+	section#contenido #cabeza #info{
+		width: 100%;
+		margin: 1em 0;
+		font-style: italic;
+	}
+	section#contenido article#tabla-form{
+		width: 100%;	
+	}
+
+	section#contenido form{
+		width: 100%;
+		min-width: auto;
+		text-align: center;
+	}
+
+	section#contenido form label{
+		width: 95%;
+		float: left;
+		margin: 0.7em 0;
+		margin: 2.5%;
+		overflow: hidden;
+	}
+
+	section#contenido form .titulo{
+		width: 100%;
+		float: left;
+		padding: 0.7em 0;
+		margin: 0.2em 0;
+		font-size: 1.5em;
+		border-bottom: solid #888 0.01em;
+	}
+	section#contenido form label#largo{
+		width: 100%;
+		margin: 2em 0%;
+	}
+	section#contenido form .campo_nombre{
+		width: 100%;
+		margin-bottom: 0.2em;
+	}
+	section#contenido form .campo_input{
+		width: 100%;
+	}
+	section#contenido form .anular{
+		width: 100%;
+		float: left;
+	}
+	section#contenido form .campo_text{
+		width: 100%;
+		float: left;
+		border-radius: 0.5em;
+		border: solid #BBB 0.05em;
+		padding: 0.3em;
+		color: #333;
+	}
+	section#contenido form .campo_boton{
+		width: 100%;
+	}
+	section#contenido form .campo_boton2{
+		width: 100%;
+	}
+	section#contenido form .agregar{
+		display: none;
+	}
+	section#contenido form #editor{
+		width: 100%;
+		float: left;
+		margin: 0.7em 0;
+		margin-right: 5%;
+	}
+
+}

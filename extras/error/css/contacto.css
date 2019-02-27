@@ -1,0 +1,70 @@
+section#contacto{
+	width: 100%;
+	float: left;
+	clear: both;
+	overflow: hidden;
+	margin: 2em 0;
+}
+
+section#contacto #col1{
+	width: 50%;
+	float: left;	
+}
+section#contacto #col2{
+	width: 50%;
+	float: left;	
+}
+
+section#contacto .titulo{
+	width: 100%;
+	float: left;
+	clear: both;
+	color: #ba4545;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	font-weight: bold;	
+	margin: 0.3em 0;
+	margin-bottom: 1.5em;
+}
+
+section#contacto .horario{
+	margin: 2.5em 0;
+	margin-bottom: 0.5em;
+}
+
+section#contacto #col1 .dato{
+	width: 100%;
+	float: left;
+	clear: both;
+	margin: 0.5em 0;
+	font-family: 'Montserrat', Arial, sans-serif;	
+	font-size: 0.95em;
+	color: #222;
+}
+
+section#contacto #col2 form{
+	width: 100%;
+	float: left;
+	clear: both;
+}
+
+section#contacto #col2 form input,section#contacto #col2 form textarea{
+	width: 100%;
+	float: left;
+	clear: both;
+	max-width: 500px;
+	border-radius: 0.3em;
+	border: solid #AAA 0.1em;
+	padding: 0.5em;
+	margin: 0.5em 0;
+	cursor: pointer;
+}
+section#contacto #col2 form input:focus,section#contacto #col2 form textarea:focus{
+	outline:0px;
+	border: solid #FFF 0.1em;
+	border-bottom: solid #111 0.1em;
+	background-color: #EEE;
+	border-radius: 0em;
+}
+
+

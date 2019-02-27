@@ -1,0 +1,1099 @@
+
+img.volver{
+	position: fixed;
+	bottom: 6em;
+	right: 1em;
+	width: 3em;
+	height: 3em;
+	border: solid 0.1em #444;
+}
+
+section#busqueda{
+	width: 100%;
+	float: left;
+	clear: both;
+	background-color: #EEE;
+	overflow: hidden;
+	display: inline-block;
+}
+section#busqueda #menu-avanzado{
+	display: none;
+}
+section#busqueda section#marcas{
+	width: 50%;
+	float: left;
+	background-color: #EEE;
+	overflow: hidden;
+}
+section#busqueda section.vista{
+	width: 40%;
+	float: right;
+	background-color: #EEE;
+	overflow: hidden;
+}
+section#busqueda section#marcas #titulo{
+	font-size: 1.2em;
+	color: #ba0000;
+	float: left;
+	margin-top: 0.98em;
+	margin-right: 0.5em;
+}
+section#busqueda section#marcas .marca{
+	float: left;
+	width: 1.5em;
+	height: 1.5em;
+	font-size: 2.6em;
+	color: #ba0000;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 90% auto;
+	margin: 0 0.1em;
+	cursor: pointer;
+}
+section#busqueda section#marcas .marca:hover{
+	background-size: 100% auto;
+}
+
+section#busqueda section#marcas .lubri{
+	margin: 1.4em 0.4em;
+	width: auto;
+	font-size: 1em;
+	color: black;
+	text-decoration: none;
+}
+section#busqueda section#marcas .lubri:hover{
+	color: #ba0000;
+	text-decoration: underline;
+}
+
+section#busqueda form{
+	width: 70%;
+	float: right;
+	background-color: #EEE;
+	overflow: hidden;	
+}
+
+section#busqueda form input{
+	float: left;
+	width: 90%;
+	border-radius: 0.5em 0 0 0.5em;
+	border: solid #CCC 0.05em;
+	padding: 0.5em;
+	margin: 0.7em 0;
+}
+section#busqueda form input#boton{
+	float: left;
+	width: 10%;
+	border-radius: 0 0.5em 0.5em 0;
+	border: solid #CCC 0.05em;
+	padding: 0.5em;
+	margin: 0.7em 0;
+	background-color: #222;
+	color: #EEE;
+	text-align: center;
+	cursor: pointer;
+}
+section#busqueda .lubricantes .descarga{
+	font-size: 0.95em;
+	border-radius: 0.5em;
+	border: 0.08em solid #000E1C;
+	padding: 0.3em;
+	float: left;
+	margin: 1em 0.2em;
+	text-decoration: none;
+	cursor: pointer;
+	background-image: url(../img/pdf.png);
+	background-position: left center;
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	background-color: #DADADA;
+	color: #333;
+}
+
+
+section#mas-opciones{
+	width: 100%;
+	float: left;
+	background-color: #EEE;
+	overflow: hidden;
+	display: inline-block;
+}
+section#mas-opciones .lubricantes{
+	float: left;
+	background-color: #EEE;
+	overflow: hidden;
+	margin-right: 3em;
+}
+section#mas-opciones .formato{
+	float: right;
+	margin-right: 0;
+	margin-left: 1em;
+}
+section#mas-opciones .visible{
+	display: inline-block;
+	float: right;
+	margin-right: 0;
+	margin-left: 1em;
+}
+section#mas-opciones .lubricantes .titulo{
+	font-size: 1.2em;
+	color: #ba0000;
+	float: left;
+	margin: 0.5em 0;
+	margin-right: 0.5em;
+
+}
+section#mas-opciones .lubricantes .tipo{
+	font-size: 0.95em;
+	border-radius: 0.5em;
+	border: 0.08em solid #000E1C;
+	padding: 0.3em;
+	float: left;
+	margin: 0.35em 0.2em;
+	text-decoration: none;
+	color: #000033;
+	background-color: #F8F8F8;
+	cursor: pointer;
+}
+section#mas-opciones .lubricantes .tipo:hover{
+	background-color: #ba4545;
+	color: #F8F8F8;
+}
+
+section#mas-opciones .lubricantes .descarga{
+	font-size: 0.95em;
+	border-radius: 0.5em;
+	border: 0.08em solid #000E1C;
+	padding: 0.3em;
+	float: left;
+	margin: 0.35em 0.2em;
+	text-decoration: none;
+	cursor: pointer;
+	background-image: url(../img/pdf.png);
+	background-position: left center;
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	background-color: #DADADA;
+}
+
+section#carrito{
+	width: 100%;
+	float: left;
+	clear: both;
+	background-color: #FFF;
+	overflow: hidden;
+}
+
+section#carrito #texto{
+	width: 40%;
+	float: left;
+	overflow: hidden;
+	color: #ba0000;
+	font-weight: normal;
+	
+}
+
+section#carrito #texto h1#titulo{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	font-size: 2em;
+	color: #ba0000;
+	margin-top: 1.5em;
+	font-weight: normal;
+	
+}
+section#carrito #texto h4#subtitulo{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	font-size: 0.9em;
+	color:  #333;
+	margin: 1.5em 0;
+	font-weight: normal;
+	
+}
+
+section#carrito #pedido{
+	float: right;
+	overflow: hidden;
+	color: #DDD;
+	font-weight: normal;
+	background-image: url(../img/carrito.png);
+	background-size: 2em auto;
+	background-position: 0.8em center;
+	background-repeat: no-repeat;
+	min-height: 5em;
+	padding: 1.2em;
+	padding-top: 1.89em;
+	padding-left: 4em;
+	background-color: rgba(186,0,0,0.7);
+	margin-top: 1.5em;
+	border-radius: 0.2em;
+	font-size: 1.2em;
+	text-decoration: none;
+	
+}
+section#carrito #pedido:hover{
+	background-color: rgba(150,0,0,0.8);
+	
+}
+section#carrito #pago{
+	margin-top: -1em;
+	margin-bottom: 0.7em;
+	float: right;
+	clear: both;
+	overflow: hidden;
+	color: rgba(120,0,0,1);
+	text-decoration: none;
+	font-size: 1.2em;
+	
+}
+section#carrito #pago:hover{
+	color: rgba(80,0,0,1);
+	text-decoration: underline;
+	
+}
+section#productos{
+	height: auto;
+	float: left;
+	clear: both;
+}
+
+section#productos .no-hay-prod{
+	margin-top: 2em;
+	font-size: 1.6em;
+	text-align: center;
+	width: 100%;
+}
+
+section#productos, section#vista-reducida{
+	width: 100%;
+	float: left;
+	clear: both;
+	background-color: #FFF;
+	overflow: hidden;
+	height: auto;
+	margin-bottom: 5em;
+}
+
+section#productos .fila{
+	width: 100%;
+	float: left;
+	clear: both;
+}
+
+section#productos article.producto{
+	width: 23%;
+	float: left;
+	display: inline-block;
+	margin: 0.5em 1%; 
+	padding: 0.5em;
+	border-radius: 0.5em;
+	border: solid #EEE 0.05em;
+	overflow: hidden;
+	//background-color: #EFEFEF;
+}
+section#productos article.producto:hover{
+	border: solid #BBB 0.05em;
+}
+
+section#productos article.producto .imagen{
+	width: 100%;
+	float: left;
+	height: 12em;
+	background-position: center center;
+	background-size: 80% auto;
+	background-repeat: no-repeat;
+	border: solid #EEE 0.05em;
+	position: relative;
+	margin-bottom: 0.2em;
+}
+section#productos article.producto .imagen .oferta{
+	position: absolute;
+	bottom: 0.5em;
+	right: 0.5em;
+	background-color: rgba(255,0,0,0.7);
+	border-radius: 0.2em;
+	color: #EEE;
+	padding: 0.3em;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+section#productos article.producto .imagen .hover-action{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(186,69,69,0.40);
+	z-index: 100000;
+	display: none;
+}
+
+section#productos article.producto .imagen .hover-action .texto{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+	font-size: 1.3em;
+	margin-top: 4em;
+	color: #FFFFFF;
+}
+
+section#productos article.producto .titulo{
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-top: 0.5em;
+	font-size: 1.1em;
+	color: #222;
+	max-height: 1.2em;
+	overflow: hidden;
+	font-weight: bold;
+	margin-bottom: 0.6em;
+}
+section#productos article.producto .dato{
+	width: 100%;
+	float: left;
+	text-align: left;
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+	font-size: 0.85em;
+	color: #222;
+	overflow: hidden;
+	padding: 0 0.2em;
+	font-family: "Montserrat", Arial, sans-serif;
+}
+
+section#productos article.producto .dato span{
+	text-transform: lowercase;
+}
+
+
+section#productos article.producto .marca{
+	margin: 0.7em 6%;
+	margin-right: 0;
+	margin-left: 3%;
+	width: 36%;
+	float: right;
+	text-align: center;
+	font-weight: bold;
+	background-position: center center;
+	background-size: auto 95%;
+	background-repeat: no-repeat;
+	border-radius: 0.5em;
+	height: 2.1em;
+}
+section#productos article.producto .carrito{
+	margin: 1em 0%;
+	width: 20%;
+	float: right;
+	text-align: center;
+	font-weight: bold;
+	//background-color: rgba(200,40,40);
+	background-image: url(../img/carrito.png);
+	background-position: center center;
+	background-size: auto 90%;
+	background-repeat: no-repeat;
+	border-radius: 0.5em;
+	height: 1.6em;
+	border: solid red 0.01em;
+}
+section#productos article.producto  #carrito{
+	float: left;
+	overflow: hidden;
+	margin: 0 2.5%;
+	margin-top: 0.4em;
+	width: 95%;
+	text-align: left;
+	clear: both;
+	display: none;
+}
+section#productos  article.producto #carrito #cantidad{
+	font-family: 'Titillium Web', sans-serif;	
+	float: left;
+	overflow: hidden;
+	margin-right: 1em; 
+	font-weight: bold;
+}
+section#productos article.producto #carrito .cantidad{
+	float: left;
+	overflow: hidden;
+	margin-right: 0em; 
+	width: 20%;
+	border: solid green 0.05em;
+	border-right-width: 0;
+	border-radius: 0.2em 0em 0em 0.2em;
+	padding: 0.2em;
+}
+section#productos  article.producto #carrito .boton{
+	background-image: url(../img/carrito.png);
+	background-size: auto 70%;
+	background-position: 0.4em center;
+	background-repeat: no-repeat;
+	float: left;
+	overflow: hidden;
+	font-weight: bold;
+	margin-right: 0em; 
+	background-color: #FFBDBD;
+	border: solid #ba0000 0.05em;
+	border-radius: 0em 0.2em 0.2em 0em;
+	color: #DDD;
+	padding: 0.3em;
+	padding-left: 2em;
+	font-size: 0.9em;
+	cursor: pointer;
+	background-color: rgba(216,40,40,0.8);
+	width: 80%;
+}
+section#productos article.producto .precio{
+	margin: 1em 1%;
+	margin-left: 0.5%;
+	width: 35%;
+	float: left;
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.1em;
+	color: #ba0000;
+}
+section#productos article.producto .precio .centavos{
+	font-size: 0.8em;
+}
+
+#fondo{
+	width: 100%;
+	float: left;
+	clear: both;
+	background-color: rgba(0,0,0,0.3);
+	overflow: hidden;
+	min-height: 100%;
+	position: fixed;
+	top: 0em;
+}
+section#productos-completo{
+	width: 80%;
+	float: left;
+	clear: both;
+	background-color: #111;
+	overflow: hidden;
+	min-height: 5em;
+	position: fixed;
+	margin: 0 10%;
+	top: 20em;
+}
+
+
+section#vista-reducida article.producto{
+	width: 100%;
+	float: left;
+	margin: 0.1em 0; 
+	padding: 0.1em;
+	border-radius: 0.2em;
+	border: solid #EEE 0.05em;
+	text-align: left;
+	display: none;
+}
+section#vista-reducida article.producto:hover{
+	border: solid #BBB 0.05em;
+}
+section#vista-reducida .titulo-vista{
+	float: left;
+	text-align: LEFT;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding: 0.5em 0;
+	color: #ba0000;
+}
+section#vista-reducida article.producto .imagen{
+	width: 5%;
+	float: left;
+	height: 2.5em;
+	background-position: center center;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+section#vista-reducida article.producto .titulo{
+	width: 32%;
+	float: left;
+	text-align: center;
+	font-size: 1em;
+	color: #222;
+	overflow: hidden;
+	font-family: Arial;
+	margin-top: 0.8em;
+	text-align: left;
+	margin-left: 5%;
+}
+section#vista-reducida article.producto .titulo .texto{
+	float: left;
+}
+
+section#vista-reducida article.producto .titulo .oferta{
+	background-color: rgba(255,0,0,0.7);
+	border-radius: 0.2em;
+	color: #EEE;
+	padding: 0.2em;
+	font-size: 0.8em;
+	float: left;
+	margin-left: 1em;
+}
+section#vista-reducida article.producto .marca{
+	margin: 0.2em 0%;
+	width: 7%;
+	float: left;
+	text-align: left;
+	font-weight: bold;
+	background-position: left center;
+	background-size: auto 95%;
+	background-repeat: no-repeat;
+	border-radius: 0.5em;
+	height: 2em;
+	
+}
+
+section#vista-reducida  article.producto .precio{
+	margin: 0.5em 0;
+	width: 10%;
+	float: left;
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #ba0000;
+}
+
+section#vista-reducida  article.producto  #carrito{
+	float: left;
+	overflow: hidden;
+	margin-top: 0.4em;
+	width: 22%;
+	text-align: left;
+	
+}
+section#vista-reducida  article.producto #carrito #cantidad{
+	font-family: 'Titillium Web', sans-serif;	
+	float: left;
+	overflow: hidden;
+	margin-right: 1em; 
+	font-weight: bold;
+}
+section#vista-reducida  article.producto #carrito .cantidad{
+	float: left;
+	overflow: hidden;
+	margin-right: 1em; 
+	width: 3em;
+	border: solid green 0.05em;
+	border-radius: 0.2em;
+	padding: 0.2em;
+}
+section#vista-reducida  article.producto #carrito .boton{
+	background-image: url(../img/carrito.png);
+	background-size: auto 70%;
+	background-position: 0.4em center;
+	background-repeat: no-repeat;
+	float: left;
+	overflow: hidden;
+	font-weight: bold;
+	margin-right: 1em; 
+	background-color: #FFBDBD;
+	border: solid #ba0000 0.05em;
+	border-radius: 0.3em;
+	color: #DDD;
+	padding: 0.3em;
+	padding-left: 2em;
+	font-size: 0.9em;
+	cursor: pointer;
+	background-color: rgba(186,0,0,0.8);
+}
+
+section#vista-reducida  article.producto .ver-mas{
+	float: left;
+	border-radius: 0.5em;
+	border: solid #CCC 0.05em;
+	padding: 0.3em;
+	margin-top: 0.3em;
+	text-align: center;
+	cursor: pointer;
+	text-decoration:none;
+	background-color: #999;
+	color: #EEE;
+}
+
+@media only screen and (max-width: 900px) {
+	#iconWrap_2n{
+		diplay: none;
+		background-color: red !important;
+	}
+
+
+	img.volver{
+		position: fixed;
+		bottom: 6em;
+		right: 1em;
+		width: 3em;
+		height: 3em;
+		border: solid 0.1em #444;
+	}
+	
+	section#busqueda{
+		width: 100%;
+		padding: 0 5%;
+		text-align: center;		
+	}
+	
+	section#busqueda #menu-avanzado{
+		width: 100%;
+		margin: 0.5em 0;
+		padding: 0.5em 5%;
+		text-align: center;
+		font-size: 1.2;
+		color: #ba0000;		
+		display: inline-block;
+		border: solid #ba4545 0.05em;
+		border-radius: 1em;		
+	}
+	.opciones-busqueda{
+		display: none;
+	}
+	.formato-busqueda{
+		display: none;
+	}
+	
+	section#busqueda section#marcas{
+		width: 100%;
+		border-bottom: solid 0.1em #888;
+	}
+	section#busqueda section.vista{
+		width: 100%;
+		float: right;
+		background-color: #EEE;
+		overflow: hidden;
+	}
+	section#busqueda section#marcas #titulo{
+		width: 100%;
+		font-size: 1.2em;
+		float: left;
+		margin: 1em 0;
+		margin-right: 0.5em;
+	}
+	section#busqueda section#marcas .marca{
+		width: 17%;
+		height: 1.6em;
+		font-size: 2.6em;
+		color: #ba0000;
+		margin: 0 8%;
+		margin-bottom: 0.5em;
+	}
+	section#busqueda section#marcas .marca:hover{
+	}
+	section#busqueda section#marcas .lubri{
+		float: left;
+		margin: 1em 1.2em;
+		font-size: 1.05em;
+		margin-bottom: 1em;
+		color: #222;
+	}
+
+	section#busqueda form{
+		float: right;
+		width: 100%;
+		background-color: #EEE;
+		overflow: hidden;	
+	}
+
+	section#busqueda form input{
+		float: left;
+		width: 80%;
+		padding: 0.5em;
+		margin: 0.7em 0;
+	}
+	section#busqueda form input#boton{
+		float: left;
+		width: 20%;
+		padding: 0.5em;
+		margin: 0.7em 0;
+	}
+
+	section#mas-opciones{
+		width: 100%;
+		float: left;
+		clear: both;
+		background-color: #EEE;
+		overflow: hidden;
+	}
+	section#mas-opciones .lubricantes{
+		float: left;
+		clear: left;
+		background-color: #EEE;
+		overflow: hidden;
+		margin: 0.5em 0;
+		width: 100%;
+		padding: 0 5%;
+	}
+	section#mas-opciones .formato{
+		float: right;
+		margin-right: 0;
+		display: none;
+		width: 0;
+		height: 0;
+		overflow: hidden;
+	}
+	section#mas-opciones .lubricantes .titulo{
+		font-size: 1.2em;
+		color: #ba0000;
+		float: left;
+		margin: 0.5em 0;
+		margin-right: 0em;
+		width: 100%;
+		text-align: center;
+
+	}
+	section#mas-opciones .lubricantes .tipo{
+		font-size: 0.95em;
+		border-radius: 0.5em;
+		border: 0.08em solid #000E1C;
+		padding: 0.3em;
+		float: left;
+		margin: 0.35em 0.2em;
+		text-decoration: none;
+		color: #000033;
+		background-color: #F8F8F8;
+		width: 31%;
+		text-align: center;
+	}
+	section#mas-opciones .lubricantes .tipo:hover{
+		background-color: #ba4545;
+		color: #F8F8F8;
+	}
+	section#mas-opciones .visible{
+		display: none;
+		width: 100%;
+		padding: 0 5%;
+
+	}
+	section#mas-opciones .visible .tipo{
+		width: 100%;
+		margin: 0 0%;
+
+	}
+
+	section#carrito{
+		width: 90%;
+		margin: 0 5%;
+	}
+
+	section#carrito #texto{
+		width: 100%;
+		float: left;
+		overflow: hidden;
+		color: #ba0000;
+		font-weight: normal;
+		text-align: center;
+		
+	}
+
+	section#carrito #texto h1#titulo{
+		width: 100%;
+		float: left;
+		overflow: hidden;
+		font-size: 1.8em;
+		color: #ba0000;
+		margin-top: 1.5em;
+		font-weight: normal;
+		
+	}
+	section#carrito #texto h4#subtitulo{
+		width: 100%;
+		float: left;
+		overflow: hidden;
+		font-size: 1em;
+		color:  #333;
+		margin: 1.5em 0;
+		font-weight: normal;
+		
+	}
+
+	section#carrito #pedido{
+		position: fixed;
+		bottom: 0em;
+		left: 0;
+		width: 100%;
+		color: #DDD;
+		background-size: 2em auto;
+		background-position: 0.8em 0.5em;
+		min-height: auto;
+		padding: 1em;
+		padding-left: 4em;
+		padding-bottom: 2.4em;
+		background-color: rgba(186,0,0,0.9);
+		margin-top: 0em;
+		border-radius: 0em;
+		font-size: 0.9em;
+		z-index: 10000000000000;
+		
+	}
+	section#carrito #pedido:hover{
+		background-color: rgba(150,0,0,1);		
+	}
+	section#carrito #pago{
+		width: 100%;
+		color: #EEE;
+		position: fixed;
+		bottom: 0em;
+		left: 0;
+		margin: 0;
+		float: right;
+		clear: both;
+		overflow: hidden;
+		text-decoration: none;
+		font-size: 1em;
+		background-color: rgba(186,0,0,0.9);
+		padding: 0.1em 2.5%;
+		text-align: right;
+		height: 1.6em;
+		
+	}
+	section#carrito #pago:hover{
+		color: rgba(80,0,0,1);
+		text-decoration: underline;
+		
+	}
+	section#productos{
+		display: inline-block;
+	}
+	section#vista-reducida{
+		display: none;
+	}
+	section#productos, section#vista-reducida{
+		width: 100%;
+		float: left;
+		clear: both;
+		background-color: #FFF;
+		overflow: hidden;
+		min-height: 35em;
+	}
+	section#productos .fila{
+		width: auto;
+		float: none;
+		clear: none;
+	}
+
+	section#productos article.producto{
+		width: 48%;
+		float: left;
+		margin: 0.5em 1%; 
+		padding: 0.5em;
+		border-radius: 0.5em;
+		border: solid #EEE 0.05em;
+	}
+	section#productos article.producto:hover{
+		border: solid #BBB 0.05em;
+	}
+
+	section#productos article.producto .imagen{
+		width: 100%;
+		float: left;
+		height: 12em;
+		background-position: center center;
+		background-size: 80% auto;
+		background-repeat: no-repeat;
+		border: solid #EEE 0.05em;
+	}
+	section#productos article.producto .titulo{
+		width: 100%;
+		float: left;
+		text-align: center;
+		margin-top: 1em;
+		font-size: 1.1em;
+		color: #222;
+		max-height: 1em;
+		overflow: hidden;
+	}
+	section#productos article.producto .marca{
+		margin: 1.2em 6%;
+		width: 34%;
+		float: left;
+		text-align: center;
+		font-weight: bold;
+		background-position: center center;
+		background-size: auto 95%;
+		background-repeat: no-repeat;
+		border-radius: 0.5em;
+		height: 1.8em;
+		
+	}
+	section#productos article.producto  #carrito{
+		display: inloine-block;
+	}
+	section#productos article.producto .carrito{
+		margin: 1em 10%;
+		width: 30%;
+		float: left;
+		text-align: center;
+		font-weight: bold;
+		background-color: #ba0000;
+		background-image: url(../img/carrito.png);
+		background-position: center center;
+		background-size: auto 70%;
+		background-repeat: no-repeat;
+		border-radius: 0.5em;
+		height: 1.8em;
+	}
+	section#productos article.producto .precio{
+		margin: 1em 0;
+		width: 50%;
+		float: left;
+		text-align: center;
+		font-weight: bold;
+		font-size: 1.2em;
+		color: #ba0000;
+	}
+	section#productos article.producto .precio .centavos{
+		font-size: 0.8em;
+	}
+
+	#fondo{
+		width: 100%;
+		float: left;
+		clear: both;
+		background-color: rgba(0,0,0,0.3);
+		overflow: hidden;
+		min-height: 100%;
+		position: fixed;
+		top: 0em;
+	}
+	section#productos-completo{
+		width: 80%;
+		float: left;
+		clear: both;
+		background-color: #111;
+		overflow: hidden;
+		min-height: 5em;
+		position: fixed;
+		margin: 0 10%;
+		top: 20em;
+	}
+
+
+	section#vista-reducida article.producto{
+		width: 100%;
+		float: left;
+		margin: 0.1em 0; 
+		padding: 0.1em;
+		border-radius: 0.2em;
+		border: solid #EEE 0.05em;
+		text-align: left;
+	}
+	section#vista-reducida article.producto:hover{
+		border: solid #BBB 0.05em;
+	}
+	section#vista-reducida .titulo-vista{
+		float: left;
+		text-align: LEFT;
+		font-weight: bold;
+		font-size: 1.2em;
+		padding: 0.5em 0;
+		color: #ba0000;
+	}
+	section#vista-reducida article.producto .imagen{
+		width: 5%;
+		float: left;
+		height: 2.5em;
+		background-position: center center;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+	}
+	section#vista-reducida article.producto .titulo{
+		width: 30%;
+		float: left;
+		text-align: center;
+		font-size: 1em;
+		color: #222;
+		overflow: hidden;
+		font-family: Arial;
+		margin-top: 0.8em;
+		text-align: left;
+		margin-left: 5%;
+	}
+	section#vista-reducida article.producto .marca{
+		margin: 0.2em 0%;
+		width: 7%;
+		float: left;
+		text-align: left;
+		font-weight: bold;
+		background-position: left center;
+		background-size: auto 95%;
+		background-repeat: no-repeat;
+		border-radius: 0.5em;
+		height: 2em;
+		
+	}
+
+	section#vista-reducida  article.producto .precio{
+		margin: 0.5em 0;
+		width: 10%;
+		float: left;
+		text-align: left;
+		font-weight: bold;
+		font-size: 1.2em;
+		color: #ba0000;
+	}
+
+	section#vista-reducida  article.producto  #carrito{
+		float: left;
+		overflow: hidden;
+		margin-top: 0.4em;
+		width: 25%;
+		text-align: left;
+		
+	}
+	section#vista-reducida  article.producto #carrito #cantidad{
+		font-family: 'Titillium Web', sans-serif;	
+		float: left;
+		overflow: hidden;
+		margin-right: 1em; 
+		font-weight: bold;
+	}
+	section#vista-reducida  article.producto #carrito .cantidad{
+		float: left;
+		overflow: hidden;
+		margin-right: 1em; 
+		width: 3em;
+		border: solid green 0.05em;
+		border-radius: 0.2em;
+		padding: 0.2em;
+	}
+	section#vista-reducida  article.producto #carrito .boton{
+		background-image: url(../img/carrito.png);
+		background-size: auto 70%;
+		background-position: 0.4em center;
+		background-repeat: no-repeat;
+		float: left;
+		overflow: hidden;
+		font-weight: bold;
+		margin-right: 1em; 
+		background-color: #FFBDBD;
+		border: solid #ba0000 0.05em;
+		border-radius: 0.3em;
+		color: #DDD;
+		padding: 0.3em;
+		padding-left: 2em;
+		font-size: 0.9em;
+		cursor: pointer;
+		background-color: rgba(186,0,0,0.8);
+	}
+
+	section#vista-reducida  article.producto .ver-mas{
+		float: left;
+		border-radius: 0.5em;
+		border: solid #CCC 0.05em;
+		padding: 0.3em;
+		margin-top: 0.3em;
+		text-align: center;
+		cursor: pointer;
+		text-decoration:none;
+		background-color: #999;
+		color: #EEE;
+	}
+	
+}

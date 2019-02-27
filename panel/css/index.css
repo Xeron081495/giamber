@@ -1,0 +1,281 @@
+@charset "utf-8";
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #f1f1f1;
+}
+
+#header {
+	clear: both;
+	float: left;
+	width: 98%;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-right: 1%;
+	padding-left: 1%;
+	background-image: url(../../panel/activos/background_Gris.png);
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFD89D;
+}
+#header #logo {
+	clear: both;
+	float: left;
+	width: 50%;
+	overflow: hidden;
+	max-width: 300px;
+}
+#header #logo .img_logo {
+	clear: both;
+	float: left;
+	width: 100%;
+}
+#header #logout {
+	background-image: url(../../panel/activos/logout.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	float: right;
+	height: 39px;
+	width: 39px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#header #logout:hover {
+	background-image: url(../../panel/activos/logout.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 38px;
+	width: 38px;
+	margin-right: 1px;
+	margin-bottom: 21px;
+}
+
+#contenedor {
+	height: 330px;
+	width: 350px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	border: 1px solid #CCCCCC;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #F8F8F8;
+}
+#contenedor #cabeza {
+	font-size: 30px;
+	color: #F93;
+	text-align: center;
+	clear: both;
+	float: left;
+	width: 100%;
+	padding-top: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	padding-bottom: 10px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #EAEAEA;
+	background-color: #F2F2F2;
+}
+#contenedor #error {
+	color: #F00000;
+	text-align: center;
+	clear: both;
+	float: left;
+	width: 100%;
+	font-size: 14px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-image: url(../../panel/activos/background2.jpg);
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #EAEAEA;
+}
+#contenedor #login form label {
+	font-size: 14px;
+	color: #797979;
+	clear: both;
+	float: left;
+	width: 74%;
+	padding-top: 25px;
+	padding-bottom: 5px;
+	padding-right: 13%;
+	padding-left: 13%;
+}
+
+
+#contenedor #login form .usuario {
+	clear: both;
+	float: left;
+	width: 70%;
+	margin-top: 5px;
+	margin-right: 13%;
+	margin-left: 13%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 14px;
+	color: #003;
+	text-align: center;
+	background-image: url(../../panel/activos/icon-username.png);
+	background-position: 5px;
+	padding-right: 2%;
+	padding-left: 2%;
+	background-repeat: no-repeat;
+	border: 1px solid #CCC;
+	border-radius: 5px 5px 5px 5px;
+}
+#contenedor #login form .pass {
+	clear: both;
+	float: left;
+	width: 70%;
+	margin-top: 5px;
+	margin-right: 13%;
+	margin-left: 13%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 16px;
+	color: #003;
+	text-align: center;
+	background-image: url(../../panel/activos/icon-password.png);
+	background-position: 5px;
+	padding-right: 2%;
+	padding-left: 2%;
+	background-repeat: no-repeat;
+	border: 1px solid #CCC;
+	border-radius: 5px 5px 5px 5px;
+}
+#contenedor #login form .boton {
+	background-color: #09C;
+	margin-top: 25px;
+	margin-right: 17%;
+	margin-left: 17%;
+	padding-top: 8px;
+	padding-right: 2.5%;
+	padding-bottom: 8px;
+	padding-left: 2.5%;
+	border: 1px solid #CCC;
+	width: 66%;
+	background-image: url(../../panel/activos/background.jpg);
+	background-position: center center;
+	border-radius: 5px 5px 5px 5px;
+	font-size: 15px;
+	color: #333;
+}
+
+@media only screen and (max-width: 900px)  {
+	body{
+	}
+	#contenedor {
+		position: relative;
+		clear: both;
+		float: left;
+		width: 90%;
+		margin: 5em 5%;
+		box-shadow: 0 1px 3px rgba(0,0,0,.13);
+		border: 1px solid #CCCCCC;
+		border-radius: 5px 5px 5px 5px;
+		background-color: #F8F8F8;
+	}
+	#contenedor #cabeza {
+		font-size: 30px;
+		color: #F93;
+		text-align: center;
+		clear: both;
+		float: left;
+		width: 100%;
+		padding-top: 10px;
+		font-family: Verdana, Geneva, sans-serif;
+		padding-bottom: 10px;
+		border-bottom-width: 2px;
+		border-bottom-style: solid;
+		border-bottom-color: #EAEAEA;
+		background-color: #F2F2F2;
+	}
+	#contenedor #error {
+		color: #F00000;
+		text-align: center;
+		clear: both;
+		float: left;
+		width: 100%;
+		font-size: 14px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		background-image: url(../../panel/activos/background2.jpg);
+		border-bottom-width: 2px;
+		border-bottom-style: solid;
+		border-bottom-color: #EAEAEA;
+	}
+	#contenedor #login form label {
+		font-size: 14px;
+		color: #797979;
+		clear: both;
+		float: left;
+		width: 74%;
+		padding-top: 25px;
+		padding-bottom: 5px;
+		padding-right: 13%;
+		padding-left: 13%;
+	}
+
+
+	#contenedor #login form .usuario {
+		clear: both;
+		float: left;
+		width: 70%;
+		margin-top: 5px;
+		margin-right: 13%;
+		margin-left: 13%;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		font-size: 14px;
+		color: #003;
+		text-align: center;
+		background-image: url(../../panel/activos/icon-username.png);
+		background-position: 5px;
+		padding-right: 2%;
+		padding-left: 2%;
+		background-repeat: no-repeat;
+		border: 1px solid #CCC;
+		border-radius: 5px 5px 5px 5px;
+	}
+	#contenedor #login form .pass {
+		clear: both;
+		float: left;
+		width: 70%;
+		margin-top: 5px;
+		margin-right: 13%;
+		margin-left: 13%;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		font-size: 16px;
+		color: #003;
+		text-align: center;
+		background-image: url(../../panel/activos/icon-password.png);
+		background-position: 5px;
+		padding-right: 2%;
+		padding-left: 2%;
+		background-repeat: no-repeat;
+		border: 1px solid #CCC;
+		border-radius: 5px 5px 5px 5px;
+	}
+	#contenedor #login form .boton {
+		background-color: #09C;
+		margin-top: 25px;
+		margin-right: 17%;
+		margin-left: 17%;
+		padding-top: 8px;
+		padding-right: 2.5%;
+		padding-bottom: 8px;
+		padding-left: 2.5%;
+		border: 1px solid #CCC;
+		width: 66%;
+		background-image: url(../../panel/activos/background.jpg);
+		background-position: center center;
+		border-radius: 5px 5px 5px 5px;
+		font-size: 15px;
+		color: #333;
+	}
+}

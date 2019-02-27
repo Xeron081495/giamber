@@ -1,0 +1,106 @@
+
+section#intro{
+	width: 100%;
+	float: left;
+	clear: both;
+	margin: 2em 0;
+}
+
+section#intro h1#titulo{
+	width: 100%;
+	float: left;
+	clear: both;
+	margin: 0.5em 0;
+	text-align: center;
+	color: white;
+	color: #ba3030;
+	font-size: 2em;
+	font-weight: normal;
+}
+section#intro p{
+	width: 100%;
+	float: left;
+	clear: both;
+	margin-bottom: 1em;
+	padding: 1.5em;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: normal;
+	line-height: 1.7em;
+}
+
+
+section#intro .marca{
+	width: 16%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	margin: 3em 2%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 88% auto;
+	height: 7.5em;
+	cursor: pointer;
+
+}
+
+section#intro .sonax{
+	background-image: url(../img/sonax.png);
+}
+section#intro .meguiars{
+	background-image: url(../img/meguiars.png);
+}
+section#intro .motul{
+	background-image: url(../img/motul.png);
+}
+section#intro .havoline{
+	background-image: url(../img/havoline.png);
+}
+section#intro .kingtony{
+	background-image: url(../img/kingtony.png);
+}
+
+section#intro .marca:hover{
+	background-size: 100% auto;
+	-webkit-transition: all 0.15s linear;
+	-moz-transition: all 0.15s linear;
+	-o-transition: all 0.15s linear;
+	transition: all 0.15s linear;
+}
+
+
+section#intro .marca .hover-marca {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(186, 69, 69, 0.95);
+	z-index: 100000;
+	display: none;
+}
+section#intro .marca .hover-marca .texto{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+	font-size: 1.1em;
+	margin-top: 3em;
+	color: #FFFFFF;
+}
+
+@media only screen and (max-width: 900px) {
+	section#intro{
+		margin-top: 0.5em;
+	}
+	section#intro h1#titulo{
+		margin: 0.5em 0;
+		padding: 0.7em;
+		font-size: 1.5em;
+	}
+	section#intro .marca{
+		width: 40%;
+		margin: 0.5em 5%;
+		background-size: 100% auto;
+		height: 6em;
+		clear: none;
+	}
+}	

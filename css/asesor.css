@@ -1,0 +1,32 @@
+#pdf{
+	padding: 1em;
+	background-color: #ba4545;
+	border: 0.08em solid #FFF;
+	color: #EFEFEF;
+	float: right;
+	text-decoration: none;
+	font-size: 0.95em;
+	border-radius: 0.5em;
+	margin: 0.35em 0.2em;
+	text-decoration: none;
+	cursor: pointer;
+	background-image: url(../img/pdf.png);
+	background-position: 0.15em center;
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+}
+
+#pdf:hover{
+	background-color: #EFEFEF;
+	border: 0.08em solid #222;
+	color: #222;
+}
+
+
+@media only screen and (max-width: 900px) {
+	#pdf{
+		width: 48%;
+	}
+}
+

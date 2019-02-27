@@ -1,0 +1,458 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	z-index: 5;
+	font-size: 1em;
+	list-style: none;
+	font-family: 'Raleway', Arial, sans-serif;
+	display: inline-block;
+}
+
+body{
+	min-width: 1300px;
+    overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.contenedor{
+	max-width: 1300px;
+	min-width: 1300px;
+	margin: auto;
+}
+
+header#barra_superior{
+	display: none;
+}
+header#celular{
+	display: none;
+}
+
+menu#celular{
+	display: none;
+}
+
+header{
+	width: 100%;
+	background: rgba(0,0,0,0.90);
+	float: left;
+	clear: both;
+	overflow: hidden;
+	z-index: 1000;
+	border-bottom: solid rgba(34,37,52,0.70) 0.05em;
+	position: relative;
+}
+header#especial{
+	width: 100%;
+	background: rgba(0,0,0,0.60);
+	float: left;
+	clear: both;
+	overflow: hidden;
+	position: fixed;
+	z-index: 1000;
+	border-bottom: solid rgba(34,37,52,0.70) 0.05em;
+}
+header #barra_superior{
+	width: 100%;
+	float: left;
+	clear: both;
+	padding: 0.3em 0;
+	background-color: #000;
+	background: rgba(34,37,52,0.8);
+	color: #EEE;
+	border-bottom: solid #4e515d 0.1em;
+}
+header #barra_superior h1#sponsor{
+	float: left;	
+	font-weight: normal;
+	font-size: 0.8em;
+}
+header #barra_superior a#login{
+	float: right;	
+	font-weight: normal;
+	font-size: 0.8em;
+	margin-left: 1.5em;
+	color: #EEE;
+	text-decoration: none;
+	padding-left: 20px;
+	background-image: url(../img/login.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: auto 80%;
+}
+header #barra_superior a#login:hover{
+	color: #ba0000;
+	background-image: url(../img/login_hover.png);
+}
+header #barra_superior #telefono{
+	float: right;	
+	font-weight: normal;
+	font-size: 0.8em;
+	color: #EEE;
+	text-decoration: none;
+	padding-left: 20px;
+	background-image: url(../img/telefono.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: auto 80%;
+	margin-left: 1.5em;
+}
+
+header #barra_superior #ubicacion{
+	float: right;	
+	font-weight: normal;
+	font-size: 0.8em;
+	color: #EEE;
+	text-decoration: none;
+	padding-left: 20px;
+	background-image: url(../img/ubicacion.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: auto 80%;
+	margin-left: 1.5em;
+}
+
+header #logo{
+	width: 19%;
+	float: left;
+	overflow: hidden;
+	margin-top: 0em;
+	padding: 0em;
+	clear: left;
+	border-radius: 0.4em 0.4em 0 0;
+}
+header #logo img{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+header menu#principal{
+	float: rigth;
+	clear: right;
+	width: 81%;
+	overflow: hidden;
+	padding: 0;
+}
+header menu#principal ul{
+	float: right;
+	clear: both;
+	overflow: hidden;
+	margin-top: 0em;
+}
+header menu#principal ul li{
+	float: left;
+	overflow: hidden;
+}
+header menu#principal ul li a{
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	display:block;
+	float: left;
+	clear: both;
+	margin: 0 0.2em;
+	padding: 3em 1.8em;	
+}
+header menu#principal ul li a#actual{
+	background-color: #ba0000;
+	margin: 1.5em 0.2em;
+	padding: 1.5em 1.8em;	
+}
+header menu#principal ul li a:hover{
+	margin: 2em 1em;
+	margin-bottom: 1.9em;
+	padding: 1em 1em;	
+	border-bottom: 0.1em #EEE solid;
+}
+header menu#principal ul li a#actual:hover{
+	background-color: #ba0000;
+	margin: 1.5em 0.2em;
+	padding: 1.5em 1.8em;
+	border-bottom: 0em #EEE solid;	
+}
+
+
+footer{
+	width: 100%;
+	background: #1e212a;
+	float: left;
+	clear: both;
+	overflow: hidden;
+	color: white;
+	float: left;
+	clear: both;
+}
+footer #firma{
+	width: 100%;
+	padding: 2em;
+	border-top: solid #888 0.1em;
+	float: left;
+	clear: both;
+	
+}
+footer menu{
+	width: 100%;
+	padding: 0em;
+	border-top: solid red 0.08em;
+	float: left;
+	clear: both;
+	overflow: hidden;
+}
+footer menu ul{
+	float: left;
+	clear: left;
+	width: 70%;
+	padding: 2.5em 0;
+	
+}
+footer menu li{
+	float: left;	
+	margin-right: 0.6em;
+}
+footer menu li a{
+	float: left;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	padding: 0.3em 0.8em;
+}
+footer menu li a#actual{
+	background-color: red;
+}
+footer menu li a:hover{
+	background-color: red;
+}
+
+footer #logo{
+	width: 16%;
+	float: right;
+	overflow: hidden;
+	padding: 0em;
+	clear: right;
+}
+footer #logo img{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+
+@media only screen and (max-width: 1350px)  {
+	body{
+		min-width: 960px;	
+	}	
+	.contenedor{
+		max-width: 960px;
+		min-width: 960px;
+	}
+	
+	header{
+	}	
+	header #barra_superior{}
+	
+	header #barra_superior h1#sponsor{
+		font-size: 0.7em;
+	}
+	header #barra_superior a#login{
+		font-size: 0.7em;
+	}
+	header #barra_superior a#login:hover{
+	}
+	header #barra_superior #telefono{
+		font-size: 0.7em;
+	}
+	header #barra_superior #ubicacion{
+		font-size: 0.7em;
+	}
+	header #logo{
+		width: 21%;
+		margin-top: 0.65em;
+		padding: 0.9em;
+	}
+	header #logo img{}
+	header menu#principal{
+		width: 79%;
+	}
+	header menu#principal ul{
+	}
+	header menu#principal ul li{
+	}
+	header menu#principal ul li a{
+		margin: 0.15em;
+		padding: 2.25em 1em;	
+	}
+	header menu#principal ul li a#actual{
+		margin: 1.5em 0.2em;
+		padding: 1em 1.8em;	
+	}
+	header menu#principal ul li a:hover{
+		margin: 0.15em;
+		padding: 2.25em 1em;	
+		padding-bottom: 1em;
+	}
+	header menu#principal ul li a#actual:hover{
+		margin: 1.5em 0.2em;
+		padding: 1em 1.8em;	
+	}
+
+
+	footer{
+	}
+	footer #firma{
+		font-size: 0.8em;		
+	}
+	footer menu{
+	}
+	footer menu ul{
+		width: 70%;
+		padding: 1.5em 0;
+		
+	}
+	footer menu li{
+		margin-right: 0.6em;
+	}
+	footer menu li a{
+		padding: 0.3em 0.8em;
+	}
+	footer menu li a#actual{
+	}
+	footer menu li a:hover{
+	}
+	footer #logo{
+	}
+	footer #logo img{
+	}
+	
+}
+
+@media only screen and (max-width: 900px)  {
+	body{
+		min-width: 300px;	
+	}	
+	.contenedor{
+		max-width: auto;
+		min-width: auto;
+	}	
+	header{
+		display: none;
+	}
+	
+	header#celular{
+		display: inline-block;
+		width: 100%;
+		float: left;
+		clear: both;
+		background-color: #23282d;
+		border-bottom: solid 0.1em #EEE;
+	}
+	header#celular a#menu-celular{
+		background-image: url(../img/menu.png);
+		background-position: center center;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		width: 10%;
+		height: 2.5em;
+		margin: 1.8em;
+		float: right;
+	}
+	header#celular img#icono{
+		width: 40%;
+		margin: 1em;
+		float: left;
+	}
+	menu#celular{		
+		display: none;
+		width: 100%;
+		float: left;
+		clear: both;
+		background-color: #23282d;
+	}	
+	menu#celular ul{		
+		width: 100%;
+		float: left;
+		clear: both;
+	}
+	menu#celular ul li{		
+		width: 100%;
+		float: left;
+		clear: both;
+	}
+	menu#celular ul li a{		
+		width: 100%;
+		float: left;
+		clear: both;
+		color: #EEE;
+		text-decoration: none;
+		text-align: center;
+		padding: 0.8em 0;
+	}
+	header#barra_superior{
+		width: 100%;
+		float: left;
+		clear: both;
+		display: inline-block;
+	}
+	header#barra_superior a#login{
+		width: 40%;
+		float: right;	
+		font-weight: normal;
+		font-size: 0.8em;
+		color: #EEE;
+		text-decoration: none;
+		padding-left: 20px;
+		background-image: url(../img/login.png);
+		background-position: center left;
+		background-repeat: no-repeat;
+		background-size: auto 80%;
+		margin: 1em 5%;
+	}
+	header#barra_superior a#login:hover{
+		color: #ba0000;
+		background-image: url(../img/login_hover.png);
+	}
+	header#barra_superior #telefono{
+		width: 40%;
+		float: left;	
+		font-size: 0.8em;
+		color: #EEE;
+		text-decoration: none;
+		padding-left: 20px;
+		background-image: url(../img/telefono.png);
+		background-position: center left;
+		background-repeat: no-repeat;
+		background-size: auto 80%;
+		margin: 1em 5%;
+	}
+
+
+	footer{
+	}
+	footer #firma{
+		padding: 2em;		
+	}
+	footer menu{
+	}
+	footer menu ul{
+		display: none;
+		
+	}
+	footer menu li{
+	}
+	footer menu li a{
+	}
+	footer menu li a#actual{
+	}
+	footer menu li a:hover{
+	}
+	footer #logo{
+		width: 80%;
+		padding: 0em;
+		margin: 0.2em 10%;
+	}
+	footer #logo img{
+	}
+	
+}
+
