@@ -1,6 +1,6 @@
 
 var actual_p = 1;
-var max_p = 5;
+var max_p = 6;
 
 
 $(document).ready(function productos(){
