@@ -103,7 +103,7 @@ $lugar = 1;
 			<p class="texto">Las motos modernas utilizan el mismo lubricante en el motor, la caja de cambios y el embrague. Es por este motivo que los lubricantes para moto contienen un paquete específico de aditivos que optimizan el funcionamiento del motor a altas velocidades, protegen las piezas móviles de la caja de cambios y mejoran la respuesta del embrague durante el cambio de marchas</p>
 		</div>
 		</a>
-		<a href="tienda.php?gama=<?php echo e('Comp'); ?>">
+		<!-- <a href="tienda.php?gama=<?php echo e('Comp'); ?>">
 		<div class="info"  onmouseenter="mostrarInfo(3);" onmouseleave="sacarInfo(3);">
 			<div class="imagen" >
 				<img src="img/motul_2.jpg"/>
@@ -113,6 +113,18 @@ $lugar = 1;
 				</div>
 			</div>
 			<p class="texto">En la competición, el objetivo es conseguir las máximas prestaciones dependiendo del motor, del tipo de carrera y de la duración de la misma. Los 6 diferentes grados de viscosidad de la Gama 300V permiten una solución precisa para cada tipo de motor y carrera, consiguiendo unos resultados óptimos.</p>
+		</div>
+		</a> -->
+		<a href="tienda.php?categoria=SXBvbmU%3D">
+		<div class="info"  onmouseenter="mostrarInfo(3);" onmouseleave="sacarInfo(3);">
+			<div class="imagen" >
+				<img src="img/ipone_inicio.png"/>
+				<h2 class="titulo">Ipone 100% motos</h2>
+				<div class="hover-action hover-action-3">
+					<h2 class="texto">Lista de precios</h2>
+				</div>
+			</div>
+			<p class="texto">IPONE nació para satisfacer las necesidades de todos, desde el uso diario hasta el ocio y la competencia para vehículos de 2 ruedas y recreativos. Los productos IPONE disfrutan de una imagen de alta calidad gracias a su calidad que los ha hecho famosos en el mercado francés e internacional.</p>
 		</div>
 		</a>
 		</div>
