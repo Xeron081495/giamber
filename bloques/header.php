@@ -1,5 +1,17 @@
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145234986-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-145234986-1');
+</script>
+
+
 <!-- BEGIN JIVOSITE CODE {literal} -->
 <script type='text/javascript'>
 	(function(){ var widget_id = 'nKjMuHAZko';var d=document;var w=window;function l(){

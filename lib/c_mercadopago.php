@@ -6,18 +6,22 @@ class GestorMP{
 	
 	//constructor
 	public function __construct(){
-		$conn = new Conexion();
-		$consulta = "SELECT * FROM gestorMP ORDER BY id DESC LIMIT 1";
-		$encontro = false;
-		if($resultado = $conn->getConexion()->query($consulta))
-			while($dato = $resultado->fetch_assoc()) {
-				$this->id_cliente = $dato['id_cliente'];
-				$this->id_secret = $dato['id_secret'];
-				$encontro = true;
-			}
-		$conn->close();
-		if(!$encontro)
-			throw new ExceptionExiste('No existe ningún gestot asociado.');
+		try{
+			$conn = new Conexion();
+			$consulta = "SELECT * FROM gestorMP ORDER BY id DESC LIMIT 1";
+			$encontro = false;
+			if($resultado = $conn->getConexion()->query($consulta))
+				while($dato = $resultado->fetch_assoc()) {
+					$this->id_cliente = $dato['id_cliente'];
+					$this->id_secret = $dato['id_secret'];
+					$encontro = true;
+				}
+			$conn->close();
+			if(!$encontro)
+				throw new ExceptionExiste('No existe ningún gestot asociado.');
+		}catch(Exception $e){
+			echo '<meta http-equiv="refresh" content="0; url=http://lubricantesgiamber.com/mantenimiento.html">';
+		}
 	}
 	
 	//metodos
